@@ -39,14 +39,14 @@ export default async function Home() {
               </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-              <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-3 d-flex justify-content-center align-items-center" aria-hidden="true">
-                  <i className="bi bi-chevron-left text-white fs-4"></i>
+              <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-1 p-md-3 d-flex justify-content-center align-items-center" aria-hidden="true">
+                  <i className="bi bi-chevron-left text-white fs-6 fs-md-4"></i>
               </span>
               <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-              <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-3 d-flex justify-content-center align-items-center" aria-hidden="true">
-                  <i className="bi bi-chevron-right text-white fs-4"></i>
+              <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-1 p-md-3 d-flex justify-content-center align-items-center" aria-hidden="true">
+                  <i className="bi bi-chevron-right text-white fs-6 fs-md-4"></i>
               </span>
               <span className="visually-hidden">Next</span>
           </button>
@@ -121,14 +121,14 @@ export default async function Home() {
                   </div>
                   
                   <button className="carousel-control-prev" type="button" data-bs-target="#trendingCarousel" data-bs-slide="prev">
-                      <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-3 d-flex justify-content-center align-items-center" aria-hidden="true">
-                          <i className="bi bi-chevron-left text-white fs-4"></i>
+                      <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-1 p-md-3 d-flex justify-content-center align-items-center" aria-hidden="true">
+                          <i className="bi bi-chevron-left text-white fs-6 fs-md-4"></i>
                       </span>
                       <span className="visually-hidden">Previous</span>
                   </button>
                   <button className="carousel-control-next" type="button" data-bs-target="#trendingCarousel" data-bs-slide="next">
-                      <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-3 d-flex justify-content-center align-items-center" aria-hidden="true">
-                          <i className="bi bi-chevron-right text-white fs-4"></i>
+                      <span className="carousel-control-icon bg-dark bg-opacity-50 rounded-circle p-1 p-md-3 d-flex justify-content-center align-items-center" aria-hidden="true">
+                          <i className="bi bi-chevron-right text-white fs-6 fs-md-4"></i>
                       </span>
                       <span className="visually-hidden">Next</span>
                   </button>
