@@ -52,7 +52,7 @@ export default async function ProductDetailPage({ params }: { params: { id: stri
               )}
             </div>
 
-            <div className="d-flex gap-2">
+            <div className="d-flex flex-column flex-sm-row gap-2 mt-2">
               <div className="flex-fill">
                 <AddToCartButton product={product} />
               </div>
