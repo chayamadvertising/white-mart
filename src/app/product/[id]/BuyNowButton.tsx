@@ -14,11 +14,12 @@ export default function BuyNowButton({ product }: { product: any }) {
     setLoading(true)
     // Add item to cart first
     addItem({
+      id: Date.now().toString(),
       productId: product.id,
       name: product.name,
       price: product.price,
       quantity: 1,
-      image: product.image,
+      image: product.image || '',
       stock: product.stock
     })
     // Then navigate straight to checkout

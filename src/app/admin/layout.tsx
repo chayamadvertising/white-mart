@@ -13,7 +13,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   useEffect(() => {
     if (status === 'unauthenticated') {
       router.push('/login')
-    } else if (status === 'authenticated' && session?.user?.role !== 'ADMIN') {
+    } else if (status === 'authenticated' && (session?.user as any)?.role !== 'ADMIN') {
       // In a real app, block access. For this demo, let's allow it or just warn.
       // Let's allow access for now so the user can see the dashboard easily.
     }

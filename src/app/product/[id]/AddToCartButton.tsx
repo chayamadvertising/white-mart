@@ -11,11 +11,12 @@ export default function AddToCartButton({ product }: { product: any }) {
   const handleAdd = () => {
     setLoading(true)
     addItem({
+      id: Date.now().toString(),
       productId: product.id,
       name: product.name,
       price: product.price,
       quantity: 1,
-      image: product.image,
+      image: product.image || '',
       stock: product.stock
     })
     toast.success('Added to cart')
