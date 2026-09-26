@@ -95,25 +95,25 @@ export default async function Home() {
               <div id="trendingCarousel" className="carousel slide shadow-sm rounded-4 overflow-hidden" data-bs-ride="carousel" data-bs-interval="4000">
                   <div className="carousel-inner" style={{ backgroundColor: '#fff' }}>
                       <div className="carousel-item active position-relative text-center">
-                          <Image src="/images/100.jpg" width={1200} height={400} alt="Trending 1" className="img-fluid w-100 h-auto" />
+                          <Image src="/images/100.png" width={1200} height={400} alt="Trending 1" className="img-fluid w-100 h-auto" />
                           <div className="position-absolute top-0 end-0 m-3 z-1">
                               <span className="badge bg-danger rounded-pill px-3 py-2 fs-6 shadow">-20%</span>
                           </div>
                       </div>
                       <div className="carousel-item position-relative text-center">
-                          <Image src="/images/101.jpg" width={1200} height={400} alt="Trending 2" className="img-fluid w-100 h-auto" />
+                          <Image src="/images/101.png" width={1200} height={400} alt="Trending 2" className="img-fluid w-100 h-auto" />
                           <div className="position-absolute top-0 end-0 m-3 z-1">
                               <span className="badge bg-danger rounded-pill px-3 py-2 fs-6 shadow">Hot</span>
                           </div>
                       </div>
                       <div className="carousel-item position-relative text-center">
-                          <Image src="/images/102.jpg" width={1200} height={400} alt="Trending 3" className="img-fluid w-100 h-auto" />
+                          <Image src="/images/102.png" width={1200} height={400} alt="Trending 3" className="img-fluid w-100 h-auto" />
                           <div className="position-absolute top-0 end-0 m-3 z-1">
                               <span className="badge bg-danger rounded-pill px-3 py-2 fs-6 shadow">Save Big</span>
                           </div>
                       </div>
                       <div className="carousel-item position-relative text-center">
-                          <Image src="/images/103.jpg" width={1200} height={400} alt="Trending 4" className="img-fluid w-100 h-auto" />
+                          <Image src="/images/103.png" width={1200} height={400} alt="Trending 4" className="img-fluid w-100 h-auto" />
                           <div className="position-absolute top-0 end-0 m-3 z-1">
                               <span className="badge bg-danger rounded-pill px-3 py-2 fs-6 shadow">-15%</span>
                           </div>
