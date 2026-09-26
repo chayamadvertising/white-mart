@@ -1273,7 +1273,7 @@ footer .bottom-footer a:hover {
 .page-animate {
   animation: adipoli-fade-in 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
 }
- 
- h t m l ,   b o d y   {   o v e r f l o w - x :   h i d d e n ;   w i d t h :   1 0 0 % ;   m a x - w i d t h :   1 0 0 v w ;   }  
- 
+
+html, body { overflow-x: hidden; width: 100%; max-width: 100vw; }
+
 html, body { overflow-x: hidden !important; width: 100% !important; max-width: 100vw !important; }
