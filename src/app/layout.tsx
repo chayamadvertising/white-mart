@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'White Mart - Premium Quality Appliances',
   description: 'Your trusted destination for quality products.',
+  verification: {
+    google: 'c6YCNTwDQoEKkybycER10DBuQKnW_ffHtq6ZOKS4D6g',
+  },
 }
 
 export default function RootLayout({
