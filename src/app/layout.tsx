@@ -11,6 +11,17 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'White Mart - Premium Quality Appliances',
   description: 'Your trusted destination for quality products.',
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: {
+      index: false,
+      follow: false,
+      noimageindex: true,
+    },
+  },
+  // Kept temporarily so Google Search Console stays verified while submitting the Removals request
   verification: {
     google: 'c6YCNTwDQoEKkybycER10DBuQKnW_ffHtq6ZOKS4D6g',
   },
